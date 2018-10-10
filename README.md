@@ -1,3 +1,4 @@
+[![Get it on Google Play](https://bcdev.info/wp-content/uploads/2018/10/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=info.bcdev.ethereumpaperwallet)
 # Ethereum paper wallet
 
 This wallet for secure Ethereum wallet creation.
