@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity implements CBBip44, CBSendin
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayShowHomeEnabled(true);
         actionbar.setIcon(R.mipmap.ic_launcher);
+        actionbar.hide();
     }
 
     public void onClick(View view){
@@ -122,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements CBBip44, CBSendin
                 startScan("toaddress");
                 break;
             case R.id.btn_send:
-                SendEthereum(getToAddress(), getAmmount());
+                    SendEthereum(getToAddress(), getAmmount());
                 break;
             case R.id.btn_copy_value:
                 copyToClipBoard(getRestoreValue());
